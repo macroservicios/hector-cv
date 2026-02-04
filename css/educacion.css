@@ -17,6 +17,7 @@
     font-weight: bold;
     text-transform: uppercase;
     text-align: center;
+  margin: 0 0 20px 0;
 }
 
 .educacion-fecha {
@@ -29,13 +30,15 @@
     font-weight: 500;
     font-size: 15px;
     margin-top: 10px;
+    line-height: 1.4;
   }
 
   .caja {
     box-shadow: 0 4px 10px rgba(56, 38, 38, 0.25);
     border-radius: 20px;
-    padding: 0.5em 0.7em;
+    padding: 16px 20px;
     margin: 10px auto;
+    background-color: white;
 
   }
 
@@ -48,6 +51,7 @@
     
     .educacion-titulo {
         font-size:50px;
+      margin-bottom: 30px;
     }
     
     .educacion-fecha {
@@ -55,19 +59,24 @@
       }
     
       .educacion-descripcion {
-        font-weight: 700px;
+        font-weight: 700;
         font-size: 18px;
-        margin:auto;
+        margin: 8px 0 0;
       }
     
       .caja {
-        height:px;
         box-shadow: 0 4px 10px rgba(56, 38, 38, 0.25);
         border-radius: 20px;
-        padding: -9.7em 0.5em;
-        margin: 6px
+        padding: 18px 22px;
+        margin: 6px;
     
       }
     
   }
+
+@media (max-width: 600px) {
+  .educacion-titulo {
+    font-size: 26px;
+  }
+}
   

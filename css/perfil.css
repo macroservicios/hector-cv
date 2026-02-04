@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2? family= Open+Sans:ital,wght@1,800 & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,800&display=swap');
 
 .perfil-info {
     margin-bottom: 20px;
@@ -46,9 +46,10 @@
     color: var(--color-texto-invertido);
     border: none;
     font-size: 20px;
-    padding: 0.5em 1em;
+    padding: 0.55em 1.2em;
     border-radius: 7px;
     cursor: pointer;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
 }
 
 .perfil-Btn:hover {
@@ -86,4 +87,18 @@
         font-size: 25px;
     }
 
+}
+
+@media (max-width: 600px) {
+    .perfil-titulo {
+        font-size: 26px;
+    }
+
+    .perfil-detalles {
+        font-size: 15px;
+    }
+
+    .perfil-Btn {
+        font-size: 18px;
+    }
 }
