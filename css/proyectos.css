@@ -2,87 +2,83 @@
 
 .proy-sec {
     text-align: center;
-    background-color: #333333;
-    border-radius: 15px;
-    color: white;
-    padding-top: 1%;  
+    background-color: white;
+    border-radius: 16px;
+    color: var(--color-texto);
+    padding: 32px 20px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+    max-width: 1100px;
+    margin: 0 auto;
 }
 
 .Dashboards-BI{
     text-indent: 5%;
     text-align: justify;
-    margin: 50px 35px 0px 20px;
-    padding-right: 5%;
-    padding-left: 5%;
-    padding-bottom: 5%;
+    margin: 24px auto 0;
+    padding: 0 5% 5%;
+    max-width: 900px;
 }
 
 .segment-yolo{
     text-indent: 5%;
     text-align: justify;
-    margin: 50px 35px 0px 20px;
-    padding-right: 5%;
-    padding-left: 5%;
-    padding-bottom: 5%;
+    margin: 24px auto 0;
+    padding: 0 5% 5%;
+    max-width: 900px;
 }
 
 
 .tensor-grafana{
     text-indent: 5%;
     text-align: justify;
-    margin: 50px 35px 0px 20px;
-    padding-right: 5%;
-    padding-left: 5%;
-    padding-bottom: 5%;
-    
+    margin: 24px auto 0;
+    padding: 0 5% 5%;
+    max-width: 900px;
 }
 
 .gesman-excel {
     text-indent: 5%;
     text-align: justify;
-    margin: 50px 35px 0px 20px;
-    padding-right: 5%;
-    padding-left: 5%;
-
+    margin: 24px auto 0;
+    padding: 0 5% 0;
+    max-width: 900px;
 }
 
 .gestock-excel {
     text-indent: 5%;
-    text-align: center;
-    margin: 50px 35px 0px 20px;
-    padding-right: 5%;
-    padding-left: 5%;
-
+    text-align: justify;
+    margin: 24px auto 0;
+    padding: 0 5% 0;
+    max-width: 900px;
 }
 
 .H1-T {
     text-align: center;
-    color: #333333;
+    color: var(--color-primario);
+    margin: 0;
 }
 
 .H2-proy {
-    margin: 0px 0px 50px 0px;
+    margin: 0 0 24px 0;
     color: var(--color-primario);
-    color: white;
 }
 
 
 /* Estilo general para pantallas grandes */
 .ul-ME1 {
-    text-align: justify;
-    margin: 20px 0px 0px 400px;
+    text-align: left;
+    margin: 12px auto 0;
     list-style-type: disc;  /* Añade viñetas a la lista */
-    /*font-size: 26px;  Tamaño de fuente para pantallas grandes */
-    padding-bottom: 5%;
-    
+    padding: 0 5% 5%;
+    max-width: 720px;
 }
 
 .ul-ME2 {
-    text-align: justify;
-    margin: 20px 0px 0px 400px;
+    text-align: left;
+    margin: 12px auto 0;
     list-style-type: disc;  /* Añade viñetas a la lista */
-    /*font-size: 26px;  Tamaño de fuente para pantallas grandes */
-    padding-bottom: 5%;
+    padding: 0 5% 5%;
+    max-width: 720px;
 }
 
 .update {
@@ -93,29 +89,37 @@
 .con-marco {
     width: 320px; 
     height: 225px;
-    border: 2px solid rgb(145, 125, 125);
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 12px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
 }
 
 .imgBI1 {
     width: 320px;
     height: 225px;
+    border-radius: 12px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
 }
 
 .imgIA1 {
     width: 320px;
     height: 225px;
+    border-radius: 12px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
 }
 
 .imgIA2 {
     width: 320px; 
     height: 225px;
-    
+    border-radius: 12px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
 }
 
 .imgME1 {
     width: 320px; 
     height: 225px;
-    
+    border-radius: 12px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
 }
 
 .contenedor-imgIA1 {
@@ -134,11 +138,7 @@
     }
 
     .Dashboards-BI, .tensor-grafana, .segment-yolo, .gesman-excel, .gestock-excel {
-        margin: 50px 200px 0 200px;
-    }
-
-    .ul-ME1, .ul-ME2 {
-        margin: 20px 0 0 400px;
+        margin-top: 28px;
     }
 }
 
@@ -150,11 +150,7 @@
     }
 
     .Dashboards-BI, .tensor-grafana, .segment-yolo, .gesman-excel, .gestock-excel {
-        margin: 40px 100px 0 100px;
-    }
-
-    .ul-ME1, .ul-ME2 {
-        margin: 15px 0 0 200px;
+        margin-top: 22px;
     }
 }
 
@@ -166,37 +162,16 @@
     }
 
     .Dashboards-BI, .tensor-grafana, .segment-yolo, .gesman-excel, .gestock-excel {
-        margin: 20px 20px 0 20px;
-    }
-
-    .ul-ME1, .ul-ME2 {
-        margin: 10px 0 0 0;
+        margin-top: 18px;
     }
 }
-
-/* Ajustes para pantallas medianas */
-@media (max-width: 949px) and (min-width: 601px) {
-    .ul-ME1, .ul-ME2 {
-        margin: 15px 0px 0px 200px; /* Reduce el margen a la izquierda */
-        /*font-size: 14px; /* Reduce un poco el tamaño de fuente */
-        padding-bottom: 5%;
-    }
-}
-
 
 /* Ajustes para pantallas pequeñas */
 @media (max-width: 600px) {
     .ul-ME1, .ul-ME2 {
-        margin: 10px 20px;  /* Aplica un margen más pequeño alrededor */
-        padding: 0;  /* Elimina el padding adicional si es necesario */
-        /*font-size: 12px; /* Reduce el tamaño de la fuente para pantallas más pequeñas */
-        list-style-position: inside;  /* Mueve las viñetas dentro del cuadro de la lista */
-        padding-bottom: 5%;
+        margin: 10px 0 0;
+        padding: 0 5% 5%;
+        list-style-position: inside;
     }
-}
-
-.horizontal-padding vertical-padding{
-    
-    background-color: lightblue;
 }
 
